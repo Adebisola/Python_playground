@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+a_list = [True, 10, "a string", 9.0, "orange", "banana","orange"]
+list_type = type(a_list)
+print("a_list is a type of {}".format(list_type))
+print(len(a_list))
+
+my_list = list(("Orange", "Apple", "Pineapple","Pear"))
+print(my_list)
+print(my_list[-3:-1])
+if "apple" in my_list:
+    print("Yes, Apple is in the list")
