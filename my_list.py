@@ -25,3 +25,19 @@ print(my_list)
 a_tuple = ("kiwi", "Berries")
 my_list.extend(a_tuple)
 print(my_list)
+
+b_list = [1,2,4,3,5]
+b_list.remove(4)
+print(b_list)
+b_list.pop(1)
+print(b_list)
+c_list = [True, False, True]
+c_list.clear()
+print(c_list)
+d_list = [2,3,4,5]
+del d_list[1]
+print(d_list)
+
+""" my_list = [1,2,3,4,5]
+[print(x) for x in my_list]
+"""
