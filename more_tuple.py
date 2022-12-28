@@ -17,4 +17,21 @@ print(red)
 print(others)
 print(green)
 
+for x in fruit:
+    print(x)
 
+for y in range(len(fruits)):
+        print(fruits[y])
+
+i = 0
+while i < len(animals):
+    print(animals[i])
+    i = i + 1
+
+multiply_tuple = animals * 2
+print(multiply_tuple)
+
+count = multiply_tuple.count("elephant")
+print(count)
+index = multiply_tuple.index("elephant")
+print(index)
