@@ -22,3 +22,11 @@ for a_key in car.keys():
 """ prints the values and the keys"""
 for a, b in car.items():
     print(a, b)
+
+
+
+_car2 = car.copy()
+print(_car2)
+
+_car3 = dict(_car2)
+print(_car3)
