@@ -31,3 +31,17 @@ print(get_items)
 if("name" in physio):
     print("Yes, I know the name of my physio")
 
+physio.update({"school":"Univeristy of Ibadan"})
+print(physio)
+a_dict = {
+        "animal": "cow",
+        "name" : "banny",
+        "legs" : 4
+        }
+""" removes the specified key and its value(the item)"""
+a_dict.pop("name")
+
+"""popitem() removes the last inserted item"""
+a_dict.popitem()
+print(a_dict)
+
