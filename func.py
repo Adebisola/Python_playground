@@ -55,3 +55,18 @@ def multiply(y):
 print(multiply(40))
 print(multiply(16))
 print(multiply(24))
+
+
+def add(x):
+    return 10 * x
+
+print(add(6))
+
+print(add(14))
+
+
+def empty_function():
+    pass
+
+
+
