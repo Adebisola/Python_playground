@@ -10,11 +10,16 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+    def myfunc(self):
+        print("My name is " + self.name)
 
 person1 = Person("Joanne", 32)
 person2 = Person("Jane", 29)
 print(person1.age)
 print(person2.name)
+print(person2.myfunc())
+person1.age = 31
+print(person1.age)
 
 
 """without the __str__ function"""
@@ -32,5 +37,6 @@ class Dog:
 dog1 = Dog("Barry", "black")
 print(dog1)
 
-
-
+""" pass is used when you have a clas with no content, so as to prevent an error"""
+class usingPass:
+    pass
