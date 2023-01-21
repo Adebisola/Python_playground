@@ -14,5 +14,5 @@ print(y)
 a = platform.system()
 print(a)
 
-b = dir(platfrom)
+b = dir(mx)
 print(b)
